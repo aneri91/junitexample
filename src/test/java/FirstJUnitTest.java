@@ -1,4 +1,3 @@
-package com.ispl.junit;
 
 import static org.junit.Assert.assertEquals;
 
@@ -26,7 +25,6 @@ public class FirstJUnitTest {
 
 	@Test
 	public void testingCrunchifyAddition() {
-		System.out.println("testingCrunchifyAddition");
 		assertEquals("Here is test for Addition Result: ", 30, addition(27, 3));
 	}
 
@@ -37,7 +35,6 @@ public class FirstJUnitTest {
 
 	@Test
 	public void testingHelloWorld() {
-		System.out.println("testingHelloWorld");
 		assertEquals("Here is test for Hello World String: ", "Hello + World", helloWorld());
 	}
 
@@ -53,7 +50,6 @@ public class FirstJUnitTest {
 
 	@Test
 	public void testingMaxFromArray() {
-		System.out.println("testingMaxFromArray");
 		assertEquals("Here is test for maxnium number from an array list", 11,
 				maxFromArray(new int[] { 1, 4, 11, 10 }));
 	}
@@ -64,7 +60,6 @@ public class FirstJUnitTest {
 
 	@Test
 	public void testingCubeNumber() {
-		System.out.println("testingCubeNumber");
 		assertEquals("Here is testing for cube", 1000, cubeNumber(10));
 	}
 

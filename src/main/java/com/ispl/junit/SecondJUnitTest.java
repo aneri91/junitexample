@@ -14,5 +14,5 @@ public class SecondJUnitTest {
 		if (result.wasSuccessful()) {
 			System.out.println("Both tests have been passed successfully");
 		}
-	}
+}
 }
