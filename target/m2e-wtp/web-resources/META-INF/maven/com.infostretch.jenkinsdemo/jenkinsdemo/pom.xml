@@ -13,7 +13,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
@@ -24,7 +23,7 @@
 					<server>TomcatServer</server>
 					<path>/jenkinsdemo</path>
 					<username>tomcat</username>
-					<password>s3cret</password>
+					<password>tomcat</password>
 				</configuration>
 			</plugin>
 		</plugins>
